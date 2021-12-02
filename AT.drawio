@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T06:53:18.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="PKJIM3tH0sZ4Q_G1YWbZ" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T06:57:24.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="fJ3i5HUvm3RXE9_p47o4" version="15.8.8" type="github">
   <diagram id="cm0wuaRb_GgHAv5zl8hj" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,14 +68,26 @@
             <mxPoint x="610" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3t87ci0f_u1np2Z85wXJ-22" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+        <mxCell id="3t87ci0f_u1np2Z85wXJ-22" value="" style="endArrow=none;html=1;rounded=0;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3t87ci0f_u1np2Z85wXJ-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="450" as="sourcePoint" />
             <mxPoint x="610" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3t87ci0f_u1np2Z85wXJ-23" value="Buffer Overflow" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="480" y="430" width="90" height="90" as="geometry" />
+          <mxGeometry x="460" y="440" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3t87ci0f_u1np2Z85wXJ-24" value="스마트워치 탈취" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="335" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3t87ci0f_u1np2Z85wXJ-25" value="Kernel Panic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3t87ci0f_u1np2Z85wXJ-26" value="" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3t87ci0f_u1np2Z85wXJ-25" target="3t87ci0f_u1np2Z85wXJ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="480" as="sourcePoint" />
+            <mxPoint x="620" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
